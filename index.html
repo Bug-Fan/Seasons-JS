@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seasons</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <center>
+      <h3>Seasons on Earth</h3>
+      <div>
+        <h1 id="hemidate">Hemisphere and Date will be displayed here</h1>
+        <h1 id="result">Season will be displayed here</h1>
+        <br /><br />
+        <form>
+          <label>Hemisphere</label>
+          <select id="hemisphere">
+            <option value="N">North</option>
+            <option value="S">South</option></select
+          ><br /><br />
+          <label>Date:</label>
+          <input
+            type="text"
+            id="date"
+            placeholder="Format: Month, Day"
+          /><br /><br />
+          <input type="button" value="Season" onclick="season()" /><br /><br />
+          <input
+            type="reset"
+            value="Reset"
+            onclick="document.getElementById('result').innerHTML = 'Season will be displayed here'; 
+                     document.getElementById('hemidate').innerHTML = 'Hemisphere and Date will be displayed here'"
+          />
+        </form>
+      </div>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>

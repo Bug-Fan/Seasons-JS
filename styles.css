@@ -1,0 +1,20 @@
+h3 {
+    color: blueviolet;
+    text-align: center;
+}
+
+div {
+    border: 5px solid red;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    text-align: center;
+    padding: 5%;
+    padding-top: 2%;
+    display: inline-block;
+}
+
+h1 {
+    border: 2px solid green;
+    background-color: black;
+    color: green;
+}
