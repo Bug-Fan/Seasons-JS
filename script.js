@@ -1,6 +1,7 @@
 let result;
 const from = to = date => new Date(Date.parse(date));
 const set = id => document.getElementById(id);
+const capsMonth = objDate => `${months[objDate.getMonth()][0].toUpperCase()}${months[objDate.getMonth()].slice(1)}`;
 
 const months = [ "january", "february", "march", "april", "may", "june", "july", "august","september", "october", "november", "december" ];
 const seasons = new Map();
